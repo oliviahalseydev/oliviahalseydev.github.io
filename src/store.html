@@ -8,19 +8,19 @@
     </div>
 </div>
 <br />
-<div class="col-sm-12">
-    <div id="albums" class="col-sm-10 col-sm-offset-2 album_container" ng-repeat="album in albums">
-        <div class="album_info col-sm-12">
+<div class="col-md-12">
+    <div id="albums" class="col-sm-md col-md-offset-2 album_container" ng-repeat="album in albums">
+        <div class="album_info col-md-12">
             <div class="col-sm-3 no_width_change">
                 <img ng-src="/assets/images/{{album.album_art}}" alt={{album.name}} />
             </div>
-            <div class="col-sm-9">
+            <div class="col-md-9">
                 <h2>{{album.name}}</h2>
                 {{album.release_date}} - {{album.track_count}} songs - {{album.length}}
             </div>
         </div>
-        <div class="songs_container col-sm-10">
-            <table class="table col-sm-12">
+        <div class="songs_container col-md-10">
+            <table class="table col-md-12">
                 <tr>
                     <th>Title</th>
                     <th class="hide_768">Artist</th>
