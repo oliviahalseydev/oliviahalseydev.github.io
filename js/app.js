@@ -21,7 +21,7 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
         getData();
     });
     function getData() {
-    $http.get('http://localhost:63620/assets/sitetext/store.json')
+    $http.get('http://oliviahalsey.me/assets/sitetext/store.json')
         .success(function (result) {
             $scope.albums = []
             for (var key in result.albums) {
