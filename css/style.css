@@ -1,0 +1,196 @@
+﻿@font-face {
+    font-family: Avenir;
+    src: url("../font/AvenirLTStd-Book.woff") format("woff"), url("../font/AvenirLTStd-Book.ttf")  format("truetype");
+}
+
+html, body { font-family: 'Avenir', sans-serif !important; }
+
+.text-center {
+	text-align: center;
+}
+
+.header-content {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.header-content > img {
+    max-width: 30%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+/*
+    HOME PAGE
+*/
+
+.home-pictures{
+    padding: 0;
+    text-align: center;
+}
+
+.home-pictures > img{
+    width: 100%;
+}
+
+/*
+    STORE PAGE
+*/
+
+.album_info > div > img {
+    width: 175px;
+}
+
+.album_info {
+    padding-left: 0;
+}
+
+audio {
+    width: 100px;
+}
+
+/*
+    CUSTOM NAVBAR
+*/
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigation li {float: left;}
+
+ul.navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+
+ul.navigation li a:hover:not(.active) {background-color: #222;}
+
+/*ul.navigation li a.active {background-color: #222;}*/
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.container-fluid>.navbar-header,
+.container-fluid>.navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (min-width: 768px) {
+    .no_width_change {
+        width: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .container-fluid > .navbar-collapse,
+    .container-fluid > .navbar-header,
+    .container > .navbar-collapse,
+    .container > .navbar-header {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide_768 {
+        display: none;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+    .collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 600px){
+    .hide_600 {
+        display: none;
+    }
+
+    .container-fluid > .navbar-collapse {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .navbar-header {
+        display: block;
+        background-color: #333;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        border: none;
+    }
+    .navbar-default .navbar-toggle:active{
+        background-color: transparent;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+    .header-content > img {
+        max-width: 60%;
+    }
+
+    ul.navigation li {
+        float: none; 
+        margin-left: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

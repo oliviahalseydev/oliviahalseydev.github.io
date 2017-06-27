@@ -1,0 +1,46 @@
+﻿<div class="col-sm-12">
+    <div class="col-xs-3 col-xs-offset-9">
+        <a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);"><img src="https://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"></a>
+        <script type="text/javascript">
+            function EJEJC_lc(th) { return false; };
+        </script>
+        <script src="https://www.e-junkie.com/ecom/box.js" type="text/javascript"></script>
+    </div>
+</div>
+<br />
+<div class="col-sm-12">
+    <div id="albums" class="col-sm-10 col-sm-offset-2 album_container" ng-repeat="album in albums">
+        <div class="album_info col-sm-12">
+            <div class="col-sm-3 no_width_change">
+                <img ng-src="/assets/images/{{album.album_art}}" alt={{album.name}} />
+            </div>
+            <div class="col-sm-9">
+                <h2>{{album.name}}</h2>
+                {{album.release_date}} - {{album.track_count}} songs - {{album.length}}
+            </div>
+        </div>
+        <div class="songs_container col-sm-10">
+            <table class="table col-sm-12">
+                <tr>
+                    <th>Title</th>
+                    <th class="hide_768">Artist</th>
+                    <th class="hide_600">Album</th>
+                    <th>Length</th>
+                    <th>Sample</th>
+                    <th>Purchase</th>
+                </tr>
+                <tr ng-repeat="song in album.songs">
+                    <th>{{song.title}}</th>
+                    <th class="hide_768">{{song.artist}}</th>
+                    <th class="hide_600">{{song.album}}</th>
+                    <th>{{song.length}}</th>
+                    <th>
+                        <div audios code="song.demo"></div>
+                    </th>
+                    <th><a href={{song.purchase_link}} target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);"><img src="https://www.e-junkie.com/ej/ej_add_to_cart.gif" border="0" alt="Add to Cart"></a></th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>

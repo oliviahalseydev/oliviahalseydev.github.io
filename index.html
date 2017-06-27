@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="OHWebsiteApp">
+<head>
+
+    <title>Olivia Halsey</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="assets/images/logo_no_text_icon_round.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/images/logo_no_text_icon_round.ico" type="image/x-icon" />
+
+</head>
+<body ng-controller="OHWebsiteController as controller">
+
+	<div ui-view="header" autoscroll="false"></div>
+    <div ui-view="content" autoscroll="false"></div>
+    <div ui-view="footer" autoscroll="false"></div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+	
+</body>
+</html>
