@@ -98,3 +98,40 @@ OHWebsiteApp.config(function($stateProvider, $urlRouterProvider) {
         });
 
 });
+
+function sendNewMessage() {
+    var reason = document.getElementById('reason-text').value;
+
+    switch (reason) {
+        case "booking":
+            var link = "mailto:austin.klein.se@gmail.com"
+                 + "?subject=" + escape(document.getElementById('name-text').value + " is interested in booking you")
+                 + "&body=" + escape("Name: " + document.getElementById('name-text').value
+                    + "\nEmail: " + document.getElementById('email-text').value
+                    + "\nReason: Booking Request"
+                    + "\nMessage: " + document.getElementById('message-text').value)
+            ;
+            window.location.href = link;
+            break;
+        case "issue":
+            var link = "mailto:austin.klein.se@gmail.com"
+                 + "?subject=" + escape(document.getElementById('name-text').value + " had an issue with their purchase")
+                 + "&body=" + escape("Name: " + document.getElementById('name-text').value
+                    + "\nEmail: " + document.getElementById('email-text').value
+                    + "\nReason: Issue with Purchase"
+                    + "\nMessage: " + document.getElementById('message-text').value)
+            ;
+            window.location.href = link;
+            break;
+        default:
+            var link = "mailto:austin.klein.se@gmail.com"
+                 + "?subject=" + escape(document.getElementById('name-text').value + " is contacting you for some other reason")
+                 + "&body=" + escape("Name: " + document.getElementById('name-text').value
+                    + "\n\nEmail: " + document.getElementById('email-text').value
+                    + "\n\nReason: Other"
+                    + "\n\nMessage: " + document.getElementById('message-text').value)
+            ;
+            window.location.href = link;
+    }
+    window.setTimeout(function () { location.href = "http://oliviahalsey.me/#/home" }, 500);
+}

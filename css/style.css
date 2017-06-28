@@ -33,7 +33,7 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 */
 
 .home-pictures{
-    padding: 0;
+    padding: 0px 5px 0px 5px;
     text-align: center;
 }
 
@@ -140,6 +140,10 @@ li a:hover {
 @media (max-width: 600px){
     .hide_600 {
         display: none;
+    }
+    
+    .form-horizontal {
+        padding-top: 15px;
     }
 
     .container-fluid > .navbar-collapse {
