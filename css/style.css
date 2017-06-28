@@ -22,7 +22,7 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 }
 
 .footer {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     left: 0;
     right: 0;
@@ -199,7 +199,7 @@ li a:hover {
     }
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
    .hide_768 {
         display: none;
     }
@@ -219,12 +219,6 @@ li a:hover {
     .navbar-toggle {
         display: block;
         border: none;
-    }
-    .navbar-header {
-        float: right;
-    }
-    .navbar-default {
-        background-color: #333;
     }
     .navbar-default .navbar-toggle:active{
         background-color: transparent;
@@ -259,7 +253,6 @@ li a:hover {
     }
 
     ul.navigation li {
-        font-size: x-large;
         float: none; 
         margin-left: 0;
         width: 100%;
