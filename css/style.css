@@ -9,6 +9,10 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 	text-align: center;
 }
 
+.float-right {
+	float: right;
+}
+
 .header-content {
     padding-top: 50px;
     padding-bottom: 25px;
@@ -202,7 +206,9 @@ li a:hover {
     .hide_600 {
         display: none;
     }
-
+    .hide_mobile {
+        display: none;
+    }
     .navbar-header {
         display: block;
         background-color: #333;
@@ -259,5 +265,8 @@ li a:hover {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+    }
+    audio{
+        width: 1px;
     }
 }

@@ -1,5 +1,5 @@
 ﻿<div class="col-sm-12">
-    <div class="col-xs-3 col-xs-offset-9">
+    <div class="col-sm-3 float-right">
         <a href="https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614" target="ej_ejc" class="ec_ejc_thkbx" onclick="return EJEJC_lc(this);"><img src="https://www.e-junkie.com/ej/ej_view_cart.gif" border="0" alt="View Cart"></a>
         <script type="text/javascript">
             function EJEJC_lc(th) { return false; };
@@ -25,7 +25,7 @@
                     <th>Title</th>
                     <th class="hide_768">Artist</th>
                     <th class="hide_600">Album</th>
-                    <th>Length</th>
+                    <th class="hide_mobile">Length</th>
                     <th>Sample</th>
                     <th>Purchase</th>
                 </tr>
@@ -33,7 +33,7 @@
                     <th>{{song.title}}</th>
                     <th class="hide_768">{{song.artist}}</th>
                     <th class="hide_600">{{song.album}}</th>
-                    <th>{{song.length}}</th>
+                    <th class="hide_mobile">{{song.length}}</th>
                     <th>
                         <div audios code="song.demo"></div>
                     </th>
