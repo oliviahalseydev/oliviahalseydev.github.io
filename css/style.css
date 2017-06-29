@@ -55,6 +55,7 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 }
 
 .square {
+    border: 10px solid ghostwhite;
     padding: 0;
 }
 
@@ -72,6 +73,10 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 
 .square-text > p {
     height: 100%;
+}
+
+.shaded {
+    border: 10px solid #333;
 }
 
 /*

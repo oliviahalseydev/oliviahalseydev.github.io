@@ -1,5 +1,5 @@
 ﻿<div class="col-md-12 profile-container">
-    <div class="col-md-12 square" ng-repeat="square in profile_squares">
+    <div ng-class="{true: 'shaded col-md-12 square', false: 'col-md-12 square'}[square.type1 == 'text']" ng-repeat="square in profile_squares">
         <div ng-if="square.type1 == 'image'" class="square-image col-md-6">
             <img ng-src="/assets/images/{{square.link1}}" alt={{square.link1}} />
         </div>
