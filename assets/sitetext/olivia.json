@@ -1,0 +1,28 @@
+﻿{
+  "profile_squares": [
+    {
+      "type1": "image",
+      "link1": "profile.jpg",
+      "text1": "",
+      "type2": "text",
+      "link2": "",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nulla dolor, mattis quis odio eu, placerat facilisis leo. Maecenas congue porta eros, id tincidunt nisi luctus nec. Duis id faucibus augue, ac accumsan est. Vivamus ac eleifend justo. Proin gravida quam a convallis mollis. Nulla tincidunt, sapien ac viverra varius, felis arcu imperdiet enim, aliquam accumsan velit odio vel orci."
+    },
+    {
+      "type1": "text",
+      "link1": "",
+      "text1": "Crooked Smile Lyrics:\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nCras nulla dolor, mattis quis odio eu, placerat facilisis leo.\nMaecenas congue porta eros, id tincidunt nisi luctus nec.\nDuis id faucibus augue, ac accumsan est.\nVivamus ac eleifend justo.\nProin gravida quam a convallis mollis.\nNulla tincidunt, sapien ac viverra varius, felis arcu imperdiet enim, aliquam accumsan velit odio vel orci.\nAenean in ex nunc.\nNunc ac augue quis magna ultrices sagittis eu id dolor.\nVivamus mattis metus quis ornare sodales.\nProin et nisl cursus, egestas sapien sit amet, rhoncus tellus.\nNullam imperdiet lacinia accumsan.",
+      "type2": "image",
+      "link2": "profile2.jpg",
+      "text2": ""
+    },
+    {
+      "type1": "image",
+      "link1": "dog.jpg",
+      "text1": "",
+      "type2": "image",
+      "link2": "profile.jpg",
+      "text2": ""
+    }
+  ]
+}

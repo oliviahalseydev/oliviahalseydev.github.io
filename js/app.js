@@ -32,6 +32,17 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
             alert("Error while loading the store. Please check back later. Sorry for any inconvenience.");
         });
     }
+
+    $http.get('http://oliviahalsey.me/assets/sitetext/olivia.json')
+    .success(function (result) {
+        $scope.profile_squares = []
+        for (var key in result.profile_squares) {
+            $scope.profile_squares.push(result.profile_squares[key]);
+        }
+    })
+    .error(function (data, status, headers, config) {
+        alert("Error while loading the profile. Please check back later. Sorry for any inconvenience.");
+    });
 });
 
 
