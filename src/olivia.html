@@ -1,15 +1,15 @@
 ﻿<div class="col-md-12 profile-container">
-    <div ng-class="{true: 'shaded col-md-12 square', false: 'col-md-12 square'}[square.type1 == 'text']" ng-repeat="square in profile_squares">
-        <div ng-if="square.type1 == 'image'" class="square-image col-md-6">
+    <div class="col-md-12 square" ng-repeat="square in profile_squares">
+        <div ng-if="square.type1 == 'image'" class="square-image col-md-3 col-md-offset-3">
             <img ng-src="/assets/images/{{square.link1}}" alt={{square.link1}} />
         </div>
-        <div ng-if="square.type1 == 'text'" class="square-text col-md-6 angular-with-newlines">
+        <div ng-if="square.type1 == 'text'" class="square-text col-md-3 col-md-offset-3 angular-with-newlines">
             <p>{{square.text1}}</p>
         </div>
-        <div ng-if="square.type2 == 'image'" class="square-image col-md-6">
+        <div ng-if="square.type2 == 'image'" class="square-image col-md-3">
             <img ng-src="/assets/images/{{square.link2}}" alt={{square.link2}} />
         </div>
-        <div ng-if="square.type2 == 'text'" class="square-text col-md-6 angular-with-newlines">
+        <div ng-if="square.type2 == 'text'" class="square-text col-md-3 angular-with-newlines">
             <p>{{square.text2}}</p>
         </div>
     </div>

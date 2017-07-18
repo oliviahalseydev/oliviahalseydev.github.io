@@ -50,17 +50,16 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 */
 
 .profile-container {
-    margin-top: -20px;
+    margin-top: 5%;
     padding: 0;
 }
 
 .square {
-    border: 10px solid ghostwhite;
-    padding: 0;
+    padding: 0 0 2% 0;
 }
 
 .square-image {
-    padding: 0;
+    padding: 0 1% 0 1%;
 }
 
 .square-image > img {
@@ -69,14 +68,11 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 
 .square-text {
     text-align: center;
+    padding: 0 1% 0 1%;
 }
 
 .square-text > p {
     height: 100%;
-}
-
-.shaded {
-    border: 10px solid #333;
 }
 
 /*
