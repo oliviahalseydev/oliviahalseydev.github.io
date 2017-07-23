@@ -15,10 +15,10 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 
 .header-content {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
-.header-content > img {
-    max-width: 30%;
+.header-content a img {
+    max-width: 26%;
 }
 
 .angular-with-newlines {
@@ -26,25 +26,42 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 }
 
 .footer {
-    /*position: absolute;*/
-    bottom: 0;
-    left: 0;
-    right: 0;
     text-align: center;
+    color: #949494;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #949494;
+}
+.footer p a:hover {
+    color: black;
 }
 /*
     HOME PAGE
 */
 
 .home-pictures{
-    padding: 0px 5px 0px 5px;
-    text-align: center;
+    background-image: url('../assets/images/profile2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31vw;
+    border: solid white;
+    border-width: 4.5vw 6px 0 6px;
+    padding: 0;
 }
 
-.home-pictures > img{
-    width: 100%;
+@media (min-width: 992px) {
+    .center-row-9 {
+       margin: 0 14.5%;
+    }
 }
 
+@media (max-width: 992px) {
+    .home-pictures {
+        height: 100vw;
+    }
+}
 /*
     OLIVIA PAGE
 */
@@ -121,20 +138,16 @@ ul.navigation li {float: left;}
 
 ul.navigation li a {
     display: block;
-    color: white;
+    color: #949494;
     text-align: center;
     padding: 5px 0px;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
-ul.navigation li a:hover:not(.active) {background-color: #222;}
+ul.navigation li a:hover:not(.active) {color: white;}
 
 /*ul.navigation li a.active {background-color: #222;}*/
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
 
 .container-fluid>.navbar-header,
 .container-fluid>.navbar-collapse {
