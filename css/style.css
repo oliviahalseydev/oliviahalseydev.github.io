@@ -3,7 +3,17 @@
     src: url("../font/AvenirLTStd-Book.woff") format("woff"), url("../font/AvenirLTStd-Book.ttf")  format("truetype");
 }
 
-html, body { font-family: 'Avenir', sans-serif !important; }
+html { 
+    font-family: 'Avenir', sans-serif !important;
+    box-sizing: border-box;
+    position: relative;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 .text-center {
 	text-align: center;
@@ -11,6 +21,14 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 
 .float-right {
 	float: right;
+}
+
+.margin-top {
+    margin-top: 2%;
+}
+
+.margin-bottom {
+    margin-bottom: 11%
 }
 
 .header-content {
@@ -26,6 +44,7 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 }
 
 .footer {
+    width: 100%;
     text-align: center;
     color: #949494;
 }
@@ -50,6 +69,23 @@ html, body { font-family: 'Avenir', sans-serif !important; }
     border-width: 4.5vw 6px 0 6px;
     padding: 0;
 }
+.home-pictures2{
+    background-image: url('../assets/images/dog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31vw;
+    border: solid white;
+    border-width: 4.5vw 6px 0 6px;
+    padding: 0;
+}
+
+.logos {
+    padding-bottom: 28px;
+}
+
+.logos img {
+        padding: 0 13px 0 13px;
+}
 
 @media (min-width: 992px) {
     .center-row-9 {
@@ -67,7 +103,7 @@ html, body { font-family: 'Avenir', sans-serif !important; }
 */
 
 .profile-container {
-    margin-top: 5%;
+    margin: 5% 0 3% 0;
     padding: 0;
 }
 
@@ -117,7 +153,7 @@ audio {
 }
 
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border: 0px;
 }
 
@@ -189,6 +225,10 @@ ul.navigation li a:hover:not(.active) {color: white;}
         display: none;
     }
     
+    .header-content a img {
+        max-width: 55%;
+    }
+
     .profile-container {
         margin-top: -2px;
     }
@@ -260,6 +300,10 @@ ul.navigation li a:hover:not(.active) {color: white;}
     }
     .navbar-default {
         background-color: transparent;
+    }
+
+   .header-content a img {
+        max-width: 55%;
     }
 }
 @media only screen and (max-device-width: 800px) {
