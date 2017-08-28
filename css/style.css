@@ -47,6 +47,8 @@ html {
     width: 100%;
     text-align: center;
     color: #949494;
+    letter-spacing: 1px;
+    font-size: 10px;
 }
 
 .footer p a {
