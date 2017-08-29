@@ -1,12 +1,11 @@
-﻿@font-face {
-    font-family: Avenir;
-    src: url("../font/AvenirLTStd-Book.woff") format("woff"), url("../font/AvenirLTStd-Book.ttf")  format("truetype");
-}
-
-html { 
-    font-family: 'Avenir', sans-serif !important;
+﻿html { 
     box-sizing: border-box;
     position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .5px;
 }
 
 *,
@@ -47,7 +46,6 @@ html {
     width: 100%;
     text-align: center;
     color: #949494;
-    letter-spacing: 1px;
     font-size: 11px;
 }
 
