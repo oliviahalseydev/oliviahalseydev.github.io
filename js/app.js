@@ -21,7 +21,8 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
         getData();
     });
     function getData() {
-    $http.get('http://oliviahalsey.me/assets/sitetext/store.json')
+        $http.get('http://oliviahalsey.com/assets/sitetext/store.json')
+        //$http.get('http://localhost:60269/assets/sitetext/store.json')
         .success(function (result) {
             $scope.albums = []
             for (var key in result.albums) {
@@ -33,7 +34,8 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
         });
     }
 
-    $http.get('http://oliviahalsey.me/assets/sitetext/olivia.json')
+    $http.get('http://oliviahalsey.com/assets/sitetext/olivia.json')
+    //$http.get('http://localhost:60269/assets/sitetext/olivia.json')
     .success(function (result) {
         $scope.profile_squares = []
         for (var key in result.profile_squares) {
@@ -144,5 +146,5 @@ function sendNewMessage() {
             ;
             window.location.href = link;
     }
-    window.setTimeout(function () { location.href = "http://oliviahalsey.me/#/home" }, 500);
+    window.setTimeout(function () { location.href = "http://oliviahalsey.com/#/home" }, 500);
 }

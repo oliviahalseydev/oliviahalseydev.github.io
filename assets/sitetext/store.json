@@ -1,73 +1,60 @@
 ﻿{
   "albums": [
     {
-      "name": "June Songs",
-      "release_date": "June 10th 2017",
-      "track_count": "3",
-      "length": "12 min 23 sec",
+      "name": "Love Letters",
+      "release_date": "June 1st 2018",
+      "track_count": "6",
+      "length": "21 min 11 sec",
       "genres": [
         "Pop"
       ],
       "album_art": "default_album_art.png",
       "songs": [
         {
-          "title": "Crooked Smile",
-          "length": "4:35",
+          "title": "Blue Moon",
+          "length": "5:16",
           "demo": "Crooked_Smile.mp3",
-          "album": "First EP",
+          "album": "Love Letters",
           "artist": "Olivia Halsey",
           "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
         },
         {
-          "title": "Blood Money",
-          "length": "4:21",
+          "title": "Oliver and Ursa",
+          "length": "2:01",
           "demo": "Crooked_Smile.mp3",
-          "album": "First EP",
+          "album": "Love Letters",
           "artist": "Olivia Halsey",
           "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
         },
         {
-          "title": "Least Likely to Get a Superlative",
-          "length": "3:27",
+          "title": "Think Too Much",
+          "length": "2:48",
           "demo": "Crooked_Smile.mp3",
-          "album": "First EP",
+          "album": "Love Letters",
           "artist": "Olivia Halsey",
           "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
-        }
-      ]
-    },
-    {
-      "name": "July Songs",
-      "release_date": "July 10th 2017",
-      "track_count": "3",
-      "length": "12 min 23 sec",
-      "genres": [
-        "Reggae",
-        "Classical"
-      ],
-      "album_art": "default_album_art.png",
-      "songs": [
+        },
+        {
+          "title": "No Man's Land",
+          "length": "3:37",
+          "demo": "Crooked_Smile.mp3",
+          "album": "Love Letters",
+          "artist": "Olivia Halsey",
+          "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
+        },
         {
           "title": "Crooked Smile",
-          "length": "4:35",
+          "length": "4:34",
           "demo": "Crooked_Smile.mp3",
-          "album": "Second EP",
+          "album": "Love Letters",
           "artist": "Olivia Halsey",
           "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
         },
         {
-          "title": "Blood Money",
-          "length": "4:21",
+          "title": "Love Letters",
+          "length": "2:55",
           "demo": "Crooked_Smile.mp3",
-          "album": "Second EP",
-          "artist": "Olivia Halsey",
-          "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
-        },
-        {
-          "title": "Least Likely to Get a Superlative",
-          "length": "3:27",
-          "demo": "Crooked_Smile.mp3",
-          "album": "Second EP",
+          "album": "Love Letters",
           "artist": "Olivia Halsey",
           "purchase_link": "https://www.e-junkie.com/ecom/gb.php?c=cart&ejc=2&cl=325614&i=1542697"
         }
