@@ -116,9 +116,9 @@ function sendNewMessage() {
     var reason = document.getElementById('reason-text').value;
 
     switch (reason) {
-        case "booking":
+        case "contact":
             var link = "mailto:austin.klein.se@gmail.com"
-                 + "?subject=" + escape(document.getElementById('name-text').value + " is interested in booking you")
+                 + "?subject=" + escape(document.getElementById('name-text').value + " wanted to contact management")
                  + "&body=" + escape("Name: " + document.getElementById('name-text').value
                     + "\nEmail: " + document.getElementById('email-text').value
                     + "\nReason: Booking Request"

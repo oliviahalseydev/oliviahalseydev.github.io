@@ -61,7 +61,7 @@ body {
 */
 
 .home-pictures{
-    background-image: url('../assets/images/profile2.jpg');
+    background-image: url('../assets/images/OliviaHPimage2 copy.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 31vw;
@@ -70,7 +70,16 @@ body {
     padding: 0;
 }
 .home-pictures2{
-    background-image: url('../assets/images/dog.jpg');
+    background-image: url('../assets/images/OHHPimage2a.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31vw;
+    border: solid white;
+    border-width: 4.5vw 6px 0 6px;
+    padding: 0;
+}
+.home-pictures3{
+    background-image: url('../assets/images/OHHPimage2b.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 31vw;
