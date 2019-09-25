@@ -21,7 +21,7 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
         getData();
     });
     function getData() {
-        $http.get('http://oliviahalsey.com/assets/sitetext/store.json')
+        $http.get('http://oliviahalseydev.github.io/assets/sitetext/store.json')
         //$http.get('http://localhost:60269/assets/sitetext/store.json')
         .success(function (result) {
             $scope.albums = []
@@ -34,7 +34,7 @@ OHWebsiteApp.controller('OHWebsiteController', function ($scope, $http) {
         });
     }
 
-    $http.get('http://oliviahalsey.com/assets/sitetext/olivia.json')
+    $http.get('http://oliviahalseydev.github.io/assets/sitetext/olivia.json')
     //$http.get('http://localhost:60269/assets/sitetext/olivia.json')
     .success(function (result) {
         $scope.profile_squares = []
